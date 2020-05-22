@@ -1,0 +1,8 @@
+-buildpath: \
+	org.eclipse.equinox.app;version=1.4.0,\
+	org.osgi.framework;version=1.9.0,\
+	org.eclipse.core.runtime;version=3.15.100,\
+	org.eclipse.equinox.registry,\
+	org.eclipse.equinox.supplement;version=1.9.100
+
+Bundle-Activator: example.rcp.headless.Main

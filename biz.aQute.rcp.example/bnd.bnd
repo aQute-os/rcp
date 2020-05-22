@@ -1,0 +1,6 @@
+-buildpath: \
+	org.eclipse.equinox.app;version=1.4.0
+Bundle-SymbolicName: ${p};singleton:=true
+-includepackage: *;from:=classes
+-includeresource \
+    {plugin.xml}
